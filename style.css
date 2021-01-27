@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 2rem;
+}
+
+header {
+  text-align: center;
+  color: white;
+  background-color: red;
+  padding: 30px 40px 0 40px;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  background-color: red;
+  padding: 15px 40px 30px 40px;
+}
+
+.todo-input,
+.todo-add {
+  border: 0;
+  border-radius: 0;
+  outline: none;
+  padding: 10px;
+}
+
+.todo-input {
+  width: 75%;
+}
+
+.todo-add {
+  cursor: pointer;
+  width: 25%;
+  color: white;
+  background-color: blue;
+  transition: 0.3s;
+}
+
+.todo-add:hover {
+  background-color: yellow;
+}
+
+.done {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
+
+.todo {
+  cursor: pointer;
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  background: #eee;;
+}
+
+.todo:nth-child(odd) {
+  background: #f9f9f9;
+}
+
+.todo:hover {
+  background: #ddd;
+}
+
+.todo-check {
+  margin-right: 2rem;
+}
+
+.todo-item {
+  list-style-type: none;
+}
+
+.todo-delete {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  margin-left: auto;
+  cursor: pointer;
+}
+
+footer {
+  color: white;
+  background-color: red;
+  padding: 1rem 2rem;
+  text-align: center;
+}
